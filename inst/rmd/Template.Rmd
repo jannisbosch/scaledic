@@ -1,0 +1,14 @@
+---
+title: "Data Report"
+author: name 
+output: beamer_presentation
+params:
+  x1 : items
+  x2 : scales
+  data : data
+---
+
+
+``` {r}
+ print(data)
+```
