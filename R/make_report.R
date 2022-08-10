@@ -11,6 +11,7 @@ make_report <- function(data, output_type = "html_document", output_dir = NULL, 
   rmarkdown::render(
     input = paste0(system.file(package = "scaledic"), "/rmd/Template.Rmd"),
     output_dir = output_dir,
+    output_format = output_type,
     params = list(data = data, x1 = items, x2 = scales),
     encoding     = 'UTF-8'
   )
