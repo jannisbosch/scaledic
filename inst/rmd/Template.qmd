@@ -5,7 +5,7 @@ editor: visual
 toc: true
 ---
 
-```{r setup}
+```{r setup, echo=params$x1}
 #| warning: false
 #| echo: false
 #| error: false
